@@ -8,12 +8,7 @@
     "skipLibCheck": true,
     "outDir": "./dist",
     "rootDir": "./",
-    "types": [
-      "cypress", "node"
-    ]
+    "types": ["cypress", "node", "@simonsmith/cypress-image-snapshot/types"]
   },
-  "include": [
-    "cypress/**/*.ts",
-    "cypress/support/index.d.ts"
-  ]
+  "include": ["cypress/**/*.ts", "cypress/support/index.d.ts"]
 }
